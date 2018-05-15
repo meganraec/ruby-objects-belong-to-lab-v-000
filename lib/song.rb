@@ -6,6 +6,5 @@ class Song
   end
 end
 
-hotline_bling = Song.new("Hotline Bling")
-hotline_bling.artist = "Drake"
-s
+# hotline_bling = Song.new("Hotline Bling")
+# hotline_bling.artist = "Drake"
