@@ -5,6 +5,3 @@ class Song
     @title = title
   end
 end
-
-# hotline_bling = Song.new("Hotline Bling")
-# hotline_bling.artist = "Drake"
