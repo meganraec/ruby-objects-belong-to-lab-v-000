@@ -2,9 +2,10 @@ class Post
   # belongs_to :author
 
   attr_reader :author
+  attr_accessor :title
 
-  def initialize(post)
-    @post = post
+  def initialize(title)
+    @title = title
     @author = author
   end
 end
