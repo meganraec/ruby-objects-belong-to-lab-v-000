@@ -1,7 +1,12 @@
 class Author
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
 end
 
-# describe "Author" do 
+# describe "Author" do
 #   it "has a name" do
 #     author = Author.new
 #     author.name = "Uncle Bob"
