@@ -6,4 +6,4 @@ class Author
   end
 end
 
-author = Author.new(name)
+author = Author.new(@name)
