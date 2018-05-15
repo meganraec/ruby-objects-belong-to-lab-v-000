@@ -5,5 +5,3 @@ class Author
     @name = name
   end
 end
-
-author = Author.new(@name)
